@@ -1,0 +1,50 @@
+body{
+background-image: url("worldcup.jpg.jfif");
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 80vh;
+margin: 0;
+color:darkblue;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 20px;
+}
+main{
+    background-color:aliceblue;
+    border-radius: 50px;
+    font-size: 15px;
+    box-shadow: 0 4px 8px rgba(183, 127, 127, 0.1);
+    border: 2px solid darkblue;
+    box-sizing: border-box;
+    line-height: 1.6;
+    text-align: center;
+    width: 250px;
+    height: 400px;
+}
+button{
+    background-color:darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.text{
+    font-size: 10px;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+}
+button:hover{
+    background-color:orange;
+}
+a:hover{
+color:blue;
+}
